@@ -12,7 +12,7 @@ export async function createSolanaClient(): Promise<SolanaClient> {
   const walletConnectors = connectorKit({
     defaultConfig: {
       appName: 'Solana Client Toolkit',
-      network: 'mainnet-beta',
+      network: 'devnet',
       enableMobile: true,
       walletConnect: { projectId: '275757b20b0a7c2eaa6b813e7bbb0d8b' },
     },
@@ -20,7 +20,7 @@ export async function createSolanaClient(): Promise<SolanaClient> {
 
   return createClient({
     commitment: 'confirmed',
-    cluster: 'mainnet-beta',
+    cluster: 'devnet',
     walletConnectors,
   });
 }

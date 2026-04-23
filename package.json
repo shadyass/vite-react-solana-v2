@@ -21,6 +21,7 @@
 		"@radix-ui/react-slot": "^1.1.0",
 		"@solana-program/system": "^0.10.0",
 		"@solana/client": "^1.7.0",
+		"@solana/connector": "^0.2.4",
 		"@solana/kit": "^6.0.1",
 		"@solana/react-hooks": "^1.4.1",
 		"class-variance-authority": "^0.7.0",
